@@ -1,0 +1,94 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#intro { 
+	background-color: #C5C5C5;
+	height: auto;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	padding: 140px 0;
+}
+#languages {
+	background: url(../img/home.jpg) 50% 0 fixed;
+	background-size: cover;
+	height: auto;  
+	margin: 0 auto; 
+	width: 100%; 
+	position: relative; 
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	padding: 200px 0;
+}
+#languages ul {
+	margin-left: -24px;
+}
+#contact {
+	background: url(../img/about.jpg) 50% 0 fixed; 
+	height: auto;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	padding: 100px 0;
+	color: #fff;
+}
+#carousel {
+	background-color: #528DCF; 
+	height: auto;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	padding: 100px 0;
+	color: #fff;
+}
+/* Non-essential demo stuff */
+.jumbotron {
+	background-color: #fff;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.jumbotron p {
+	text-indent: 2em;
+}
+.media-object { 
+	width: 64px; 
+	height: 64px; 
+	padding-bottom: 30px 
+}
+.carousel-caption {
+	width: 80%;
+	padding-top: 0;
+	background-color: #558CDF;
+}
+.carousel-caption a{
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#michael {
+	width: 160px;
+	height: auto;
+	margin-top: -100px;
+	float: right;
+	display:inline;
+}
+#jlpt {
+	width: auto;
+	height: 200px;
+	margin-top: -100px;
+	float: right;
+	display:inline;
+}
+#toeic {
+	width: 160px;
+	height: auto;
+	margin-top: -50px;
+	float: right;
+	display:inline;
+}
+.container h1 {
+	color: #C4C4C4;
+}
+.carousel-control {
+	z-index: 99;
+}
