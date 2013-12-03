@@ -5,7 +5,12 @@ $(document).ready(function(){
       }, 500);
       return false;
   });
-  $('#languages').popover({trigger:'hover',content:'I made this wallpaper !!',placement:'auto'});
+  $('#languages').popover({
+    html: true,
+    trigger:'hover',
+    content:'<div class="popovercontent">I made this wallpaper !!</div><div class="popovercontentbig">You will see here amazing wallpaper on bigger screen !</div>',
+    placement:'auto'
+  });
    // cache the window object
   $window = $(window);
  

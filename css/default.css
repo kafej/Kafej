@@ -1,3 +1,27 @@
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+	#languages {
+		background-color: #51E027;
+	}
+	.popovercontent {
+		display: none;
+	}
+	.popovercontentbig {
+		display: block;
+	}
+}
+/*@media only screen and (min-width: 481px), only screen and (min-device-width: 481px) {*/
+@media only screen and (min-width: 481px) {
+	#languages {
+		background: url(../img/home.jpg) 50% 0 fixed;
+		background-size: cover;
+	}
+	.popovercontent {
+		display: block;
+	}
+	.popovercontentbig {
+		display: none;
+	}
+}
 body {
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,8 +35,6 @@ body {
 	padding: 140px 0;
 }
 #languages {
-	background: url(../img/home.jpg) 50% 0 fixed;
-	background-size: cover;
 	height: auto;  
 	margin: 0 auto; 
 	width: 100%; 
@@ -91,4 +113,7 @@ body {
 }
 .carousel-control {
 	z-index: 99;
+}
+#links a {
+	margin-top: 4px;
 }
