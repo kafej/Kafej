@@ -1,4 +1,7 @@
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+	#contact {
+		background-color: black;
+	}	
 	#languages {
 		background-color: #51E027;
 	}
@@ -11,6 +14,9 @@
 }
 /*@media only screen and (min-width: 481px), only screen and (min-device-width: 481px) {*/
 @media only screen and (min-width: 481px) {
+	#contact {
+		background: url(../img/about.jpg) 50% 0 fixed; 
+	}
 	#languages {
 		background: url(../img/home.jpg) 50% 0 fixed;
 		background-size: cover;
@@ -46,7 +52,6 @@ body {
 	margin-left: -24px;
 }
 #contact {
-	background: url(../img/about.jpg) 50% 0 fixed; 
 	height: auto;
 	margin: 0 auto;
 	width: 100%;
