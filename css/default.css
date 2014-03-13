@@ -31,6 +31,12 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 }
+p {
+	width: 98%;
+	padding-top: 6px;
+	text-align: justify;
+	text-justify: auto;
+}
 #intro { 
 	background-color: #C5C5C5;
 	height: auto;
@@ -58,7 +64,7 @@ body {
 	position: relative;
 	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 	padding: 100px 0;
-	color: #fff;
+	color: #C4C4C4;
 }
 #carousel {
 	background-color: #528DCF; 
@@ -113,12 +119,29 @@ body {
 	float: right;
 	display:inline;
 }
+#polish {
+	width: 160px;
+	height: auto;
+	margin-top: -50px;
+	float: right;
+	display:inline;
+}
+#few {
+	text-align: center;
+	color: #3A6303;
+}
 .container h1 {
-	color: #C4C4C4;
+	color: #2C9D1C;
 }
 .carousel-control {
 	z-index: 99;
 }
+.btn-info {
+	color: #056374;
+}
 #links a {
 	margin-top: 4px;
+}
+#validate {
+	margin-top: 50px;
 }
