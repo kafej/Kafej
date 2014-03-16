@@ -101,6 +101,7 @@ p {
 }
 .preziFrame {
 	width: 100%;
+	border: none;
 }
 .media-object { 
 	width: 64px; 
